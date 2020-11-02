@@ -1,3 +1,6 @@
+// imageFormatFallback.js by Maingron (https://maingron.com/imageformatfallback)
+// Licensed under MIT (https://github.com/Maingron/imageFormatFallback.js/blob/master/LICENSE)
+
 if(!data) {
     var data = {};
     var d = data;
