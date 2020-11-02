@@ -1,5 +1,6 @@
 if(!data) {
-    var data = d = {};
+    var data = {};
+    var d = data;
 }
 
 if(!data["imageFormatFallback"]) {
@@ -8,10 +9,6 @@ if(!data["imageFormatFallback"]) {
         "data":{},
         "config":{}
     }
-}
-
-if(!imageFormatFallback) {
-    var imageFormatFallback = data["imageFormatFallback"];
 }
 
 // config
@@ -29,7 +26,7 @@ if(window.addEventListener) {
     });
 } else {
     window.setTimeout(function() {
-        attachEvent("onload", checkSupportedImageFormats());
+        attachEvent("onload", checkSupportedImageFormats);
     },100);
 }
 
@@ -78,9 +75,7 @@ function spawnIMGs() {
                     var thisFormats = imageFormatFallback.elements.img[i].getAttribute(imageFormatFallback.config.fallbackAttributeName).split(",");
                     var thisOriginalFormat = imageFormatFallback.elements.img[i].getAttribute("src").split(".").pop();
                     imageFormatFallback.elements.img[i].setAttribute("originalformat",thisOriginalFormat);
-
-                    if(imageFormatFallback.data.supportedFormats.indexOf(thisOriginalFormat) > -1) {
-                    } else {
+                    if(imageFormatFallback.data.supportedFormats.indexOf(thisOriginalFormat) < 0) {
                         for(var j=0; thisFormats.length > j; j++) {
                             if(imageFormatFallback.data.supportedFormats.indexOf(thisFormats[j].replace(/\s/g, '')) > -1) {
                                 var newSrc = imageFormatFallback.config.fallbackPrefix + imageFormatFallback.elements.img[i].getAttribute("src").split(thisOriginalFormat)[0] + thisFormats[j].replace(/\s/g, '');
@@ -91,7 +86,7 @@ function spawnIMGs() {
                     }
                 }
             }
-        },100)
+        },25)
     }
     fixImages();
 }
