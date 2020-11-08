@@ -9,6 +9,17 @@
 - `fallbackPrefix`: If all your fallback images should have a prefix, you can set it here. Example: "fallback_"
 - `fallbackAttributeName`: If you want a different attribute than `formats=""`, you can set it here
 
+## Supported image formats
+- .avif
+- .png
+- .bmp
+- .gif
+- .jpg
+- .webp
+- .jxr
+- .tga
+- .tiff
+
 ## Tested working browsers
 - **Firefox 8** and later
 - **Google Chrome 9** and later
