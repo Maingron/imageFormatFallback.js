@@ -19,6 +19,7 @@
 - .jxr
 - .tga
 - .tiff
+- .heic
 
 ## Tested working browsers
 - **Firefox 8** and later
