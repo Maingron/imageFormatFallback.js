@@ -22,6 +22,7 @@
 - .tga
 - .tiff
 - .heic
+- .ico
 
 ## Tested working browsers
 - **Firefox 8** and later
