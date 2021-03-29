@@ -13,16 +13,16 @@
 
 ## Supported image formats
 - .avif
-- .png
 - .bmp
 - .gif
-- .jpg
-- .webp
-- .jxr
-- .tga
-- .tiff
 - .heic
 - .ico
+- .jpg
+- .jxr
+- .png
+- .tga
+- .tiff
+- .webp
 
 ## Tested working browsers
 - **Firefox 8** and later
