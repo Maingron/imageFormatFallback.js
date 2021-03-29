@@ -1,5 +1,7 @@
 # imageFormatFallback
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/aa22de4f505fb1a98063/maintainability)](https://codeclimate.com/github/Maingron/imageFormatFallback.js/maintainability)
+
 ## How to use
 1. Load images onto the server - In this example we have image.webp; image.xjr and image.jpg
 2. Go into the HTML and add the format Attribute to your \<img\>-Tag: `<img src="images/image.webp" formats="webp,xjr,jpg" alt="image">`
