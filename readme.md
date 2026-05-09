@@ -12,7 +12,9 @@ Alternatives include
 - As of 2026, WEBP is pretty much universally supported anyway. Exotic file formats are exotic anyway and shouldn't be used. In cases where PNGs are preferred, check out [Oxipng](https://github.com/oxipng/oxipng)
   
 
-\* As of 2026, I'm currently mirroring Repos from GitHub to GitLab bidirectionally. Target platform might change later.
+\* As of 2026, I'm currently mirroring Repos from GitHub to GitLab bidirectionally. Target platform might change later.  
+GitLab: https://gitlab.com/Maingron/imageFormatFallback-js  
+GitHub: https://github.com/Maingron/imageFormatFallback.js
 
 
 **News - Read first: https://github.com/Maingron/imageFormatFallback.js/issues/13 (Cancel development because of alternatives)**
