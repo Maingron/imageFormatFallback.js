@@ -1,8 +1,23 @@
 # imageFormatFallback
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/aa22de4f505fb1a98063/maintainability)](https://codeclimate.com/github/Maingron/imageFormatFallback.js/maintainability)  
+----
+**This repo is archived**
+
+This repo has been stale for years, and there are alternatives. 
+
+Alternatives include
+- HTML Picture-Tag
+- CSS @media / @supports
+- check request headers for support (with Htaccess or PHP)
+- As of 2026, WEBP is pretty much universally supported anyway. Exotic file formats are exotic anyway and shouldn't be used. In cases where PNGs are preferred, check out [Oxipng](https://github.com/oxipng/oxipng)
+  
+
+\* As of 2026, I'm currently mirroring Repos from GitHub to GitLab bidirectionally. Target platform might change later.
+
 
 **News - Read first: https://github.com/Maingron/imageFormatFallback.js/issues/13 (Cancel development because of alternatives)**
+  
+----
 
 ## How to use
 1. Load images onto the server - In this example we have image.webp; image.xjr and image.jpg
